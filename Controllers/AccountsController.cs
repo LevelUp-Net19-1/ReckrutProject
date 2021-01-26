@@ -22,7 +22,10 @@ namespace Rekrut.Controllers
 
         #region ===--- GET: ---===
 
-        // GET: api/Accounts
+        /// <summary>
+        /// GET: api/Accounts
+        /// </summary>
+        /// <returns></returns>
         public IHttpActionResult Get()    // get all accounts with 0 IsDeleted parameter
         {
             try
